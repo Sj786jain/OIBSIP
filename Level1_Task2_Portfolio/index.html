@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/85f197641e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.ico" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Sanket</span> Jain</h1>
+                <p>
+                    Fresh Graduate complete Btech in CSE from
+                        Bansal Institute of Researc Technology and Science. I love to explore new technologies. I am
+                        skilled in creating and designing websites. I enjoy competitive Programming; you can find me on
+                        Leetcode. Apart from programming, I'm also passionate about playing Chess.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>C/C++</h2>
+                    <p>I'm skilled in this language</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-code"></i>
+                    <h2>HTML,CSS,Javascript</h2>
+                    <p>I have learnt these for website making basically for frontend Development</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-github"></i>
+                    <h2>Git/Github</h2>
+                    <p>I have learnt for open source Contributions</p>
+                    <a href="#">Learn More</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!----------------------------------projects-------------------------------->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="project-list">
+                <div class="project">
+                    <img src="https://okcredit-blog-images-prod.storage.googleapis.com/2020/11/software1.jpg">
+                    <div class="layer">
+                        <h3>Billing System</h3>
+                        <p>I have done this project using C++ which  generate bill.</p>
+                        <a href="https://github.com/Geetanjaligupta123/book-recommender.github.io"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="https://newsimg.giznext.com/mobile/production/news/wp-content/uploads/2023/05/02120358/food-app-735x400.jpg" height="100%">
+                    <div class="layer">
+                        <h3>Foodverse</h3>
+                        <p>I have this App using Html, Css, Javascript which is 20% faster than other food ordering websites</p>
+                        <a href="https://github.com/Geetanjaligupta123/Add-Two-Numbers"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See More</a>
+            
+        </div>
+    </div>
+
+<!--------------------------------------------contact---------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sanketjain5468@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+91-979****856</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Sj786jain"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sanket-07/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/SANKET_JAIN_RESUME-2.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Sanket. Made with <i class="fa-solid fa-heart"></i> by Sanket Jain</p>
+    </div>
+</div>
+    </div>
+    </div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablinks of tablinks) {
+                tablinks.classList.remove("active-link");
+            }
+            for (tabcontents of tablecontents) {
+                tabcontents.classList.remove("active-tab");
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
